@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+#restaurant-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.restaurant-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  max-width: 300px;
+}
+
+#cart {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 20px;
+}
